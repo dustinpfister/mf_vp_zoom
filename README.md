@@ -1,9 +1,9 @@
-# mf_vp
-### A view port manager
+# mf_vp_zoom
+### A not so simple view port manager
 
-This is my take on a 2d view port manager (or camera). It contains values, an methods that have to do with the representation a certain section of a 2d world that I would call a "field of view". This feild of view can then be scaled down (or up) to a certian fixed native size that will typically be a canvas elements native resolution.
+This is a more advanced version of my [mf_vp](https://github.com/dustinpfister/mf_vp) project that allows for view port zooming.
 
-tldr; It makes 2d panning, and zooming possible.
+simply put it makes 2d scrolling, and zooming possible.
 
 ### vp.lookAt(cx,cy)
 
